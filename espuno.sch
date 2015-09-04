@@ -19447,8 +19447,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="330OHM1/10W1%(0603)" device="" value="330"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="330OHM1/10W1%(0603)" device="" value="330"/>
-<part name="LED1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
-<part name="LED2" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
+<part name="TX" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="RX" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SV1" library="con-lstb" deviceset="MA03-2" device=""/>
@@ -19579,8 +19579,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="GND12" gate="1" x="63.5" y="-76.2"/>
 <instance part="R7" gate="G$1" x="129.54" y="-50.8" rot="R90"/>
 <instance part="R8" gate="G$1" x="139.7" y="-50.8" rot="R90"/>
-<instance part="LED1" gate="G$1" x="129.54" y="-60.96"/>
-<instance part="LED2" gate="G$1" x="139.7" y="-60.96"/>
+<instance part="TX" gate="G$1" x="129.54" y="-60.96"/>
+<instance part="RX" gate="G$1" x="139.7" y="-60.96"/>
 <instance part="SUPPLY16" gate="G$1" x="129.54" y="-40.64"/>
 <instance part="SUPPLY17" gate="G$1" x="139.7" y="-40.64"/>
 <instance part="SV1" gate="1" x="297.18" y="106.68"/>
@@ -20565,7 +20565,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="114.3" y1="-71.12" x2="129.54" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-71.12" x2="129.54" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="TXLED"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="TX" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="RXLED" class="0">
@@ -20573,7 +20573,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="114.3" y1="-73.66" x2="139.7" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-73.66" x2="139.7" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="RXLED"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="RX" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="PWREN" class="0">
@@ -20601,14 +20601,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <segment>
 <wire x1="129.54" y1="-55.88" x2="129.54" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="TX" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <wire x1="139.7" y1="-55.88" x2="139.7" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="RX" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="13/SCLK" class="0">
