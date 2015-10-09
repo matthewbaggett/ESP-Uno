@@ -1586,7 +1586,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="1.55625" y="23.33625" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="USB-MINIB-NOSTOP" value="USB-SMD-NS" x="6.0325" y="38.1" smashed="yes"/>
-<element name="J1" library="SparkFun-Boards" package="UNO_R3_SHIELD" value="ARDUINO_R3_SHIELD" x="8.89" y="53.34" rot="R270"/>
+<element name="J1" library="SparkFun-Boards" package="UNO_R3_SHIELD" value="ARDUINO_R3_SHIELD" x="8.89" y="53.34" smashed="yes" rot="R270"/>
 <element name="PC3" library="rcl" package="PANASONIC_D" value="47u" x="14.76375" y="8.5725" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.1725" y="8.14375" size="1.016" layer="25"/>
 </element>
