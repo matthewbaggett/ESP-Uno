@@ -21970,14 +21970,14 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="U1" library="microbuilder" deviceset="ADC_ADS1015" device="" value="ADS1115IDGST"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="1µF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uf"/>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="M1206" value="10K"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="M1206" value="10K"/>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="M1206" value="10K"/>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C1206K" value="100n"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C1206K" value="0.1uf"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
@@ -21991,7 +21991,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="T1" library="zetex" deviceset="PMOSSOT23" device="" value="FDN340P"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C1206K" value="100n"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C1206K" value="0.1uf"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C1206K" value="1u"/>
