@@ -21890,7 +21890,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C10" library="rcl" deviceset="C-EU" device="C1206K" value="4.7uF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="D4" library="SparkFun-LED" deviceset="LED" device="1206" value="CHARGING"/>
+<part name="D4" library="SparkFun-LED" deviceset="LED" device="1206" value="CHRG"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="M1206" value="470"/>
 <part name="U6" library="SparkFun" deviceset="MCP73831" device=""/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="M1206" value="2k"/>
