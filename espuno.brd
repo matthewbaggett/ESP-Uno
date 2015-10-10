@@ -2121,10 +2121,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="SDA/GPIO16">
 <contactref element="MDL1" pad="4"/>
 <contactref element="U1" pad="9"/>
-<contactref element="R2" pad="2"/>
 <contactref element="J1" pad="SDA"/>
 <wire x1="59.5806" y1="7.32625" x2="63.21125" y2="7.32625" width="0.3048" layer="1"/>
-<wire x1="63.21125" y1="7.32625" x2="63.21125" y2="8.255" width="0.3048" layer="1"/>
 <wire x1="21.59" y1="50.8" x2="32.54375" y2="39.84625" width="0.3048" layer="1"/>
 <wire x1="32.54375" y1="39.84625" x2="32.54375" y2="30.32125" width="0.3048" layer="1"/>
 <wire x1="32.54375" y1="30.32125" x2="36.355" y2="26.51" width="0.3048" layer="1"/>
@@ -2144,15 +2142,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="43.4975" y1="8.89" x2="42.70375" y2="8.09625" width="0.3048" layer="1"/>
 <via x="42.70375" y="8.09625" extent="1-16" drill="0.6"/>
 <wire x1="42.70375" y1="8.09625" x2="40.79875" y2="10.00125" width="0.3048" layer="16"/>
+<contactref element="R2" pad="2"/>
+<wire x1="63.21125" y1="7.32625" x2="63.21125" y2="8.255" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL/GPIO14">
 <contactref element="MDL1" pad="5"/>
 <contactref element="U1" pad="10"/>
-<contactref element="R1" pad="2"/>
 <contactref element="J1" pad="SCL"/>
 <wire x1="59.5806" y1="7.82625" x2="61.9125" y2="7.82625" width="0.3048" layer="1"/>
 <wire x1="61.9125" y1="7.82625" x2="61.9125" y2="11.43" width="0.3048" layer="1"/>
-<wire x1="61.9125" y1="11.43" x2="63.21125" y2="11.43" width="0.3048" layer="1"/>
 <wire x1="19.05" y1="50.8" x2="32.0675" y2="37.7825" width="0.3048" layer="1"/>
 <wire x1="32.0675" y1="37.7825" x2="32.0675" y2="26.82875" width="0.3048" layer="1"/>
 <wire x1="32.0675" y1="26.82875" x2="34.38625" y2="24.51" width="0.3048" layer="1"/>
@@ -2169,6 +2167,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="41.275" y1="10.795" x2="42.70375" y2="9.36625" width="0.3048" layer="16"/>
 <via x="42.70375" y="9.36625" extent="1-16" drill="0.6"/>
 <wire x1="42.70375" y1="9.36625" x2="54.13375" y2="9.36625" width="0.3048" layer="1"/>
+<contactref element="R1" pad="2"/>
+<wire x1="61.9125" y1="11.43" x2="63.21125" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADDR">
 <contactref element="U1" pad="1"/>
