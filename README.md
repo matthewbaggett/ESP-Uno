@@ -13,6 +13,8 @@ Features:
 + Built-in USB programmer ([FTDI FT232R](http://www.aliexpress.com/premium/FT232R.html?spm=2114.01020208.0.312.zEmQlv&site=glo&g=y&SortType=price_asc&SearchText=FT232R&isUnitPrice=y&initiative_id=SB_20151010010739&shipCountry=uk&needQuery=n)) similar to how the Arduinos have.
 + Mini-USB port. They're easier to get hold of, for me, and the full-size USB connector tends to short out cheaply made boards that ride up on top of the Arduino. Also should help reduce the deck height of the board.
 + All of the parts that weren't restricted to being tiny ICs (Damn ADS1115, TSP61200, LMV358IDGKR) are massive 1206-size parts.
++ Lots of amusing LEDs along the top left corner/edge. In order: Charging/Power On/RX/TX/Pin 13 "L"
++ Flash and Reset pushbuttons.
 
 ![alt text](https://raw.githubusercontent.com/matthewbaggett/ESP-Uno/master/espuno.brd.png)
 ![alt text](https://raw.githubusercontent.com/matthewbaggett/ESP-Uno/master/espuno.sch.png)
