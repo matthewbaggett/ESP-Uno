@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.00625" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -157,9 +157,21 @@
 <wire x1="64.78" y1="53.34" x2="0.9525" y2="53.34" width="0" layer="20"/>
 <wire x1="0.9525" y1="53.34" x2="0" y2="52.3875" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="52.3875" x2="0" y2="0" width="0" layer="20"/>
-<rectangle x1="0" y1="0" x2="68.58" y2="53.34" layer="26"/>
 <text x="36.03625" y="44.29125" size="2.54" layer="25" ratio="17" rot="R180">ESPUNO</text>
 <text x="35.8775" y="40.79875" size="1.778" layer="25" ratio="17" rot="R180">mk2</text>
+<polygon width="0.3048" layer="26">
+<vertex x="0" y="52.54625" curve="-90"/>
+<vertex x="0.9525" y="53.34"/>
+<vertex x="64.77" y="53.34"/>
+<vertex x="66.04" y="52.07"/>
+<vertex x="66.04" y="40.64"/>
+<vertex x="68.58" y="38.1"/>
+<vertex x="68.58" y="5.08"/>
+<vertex x="66.04" y="2.54"/>
+<vertex x="66.04" y="0.9525" curve="-90"/>
+<vertex x="65.0875" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
 </plain>
 <libraries>
 <library name="ESP8266-ESP12E">
@@ -2122,7 +2134,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="MDL1" pad="4"/>
 <contactref element="U1" pad="9"/>
 <contactref element="J1" pad="SDA"/>
-<wire x1="59.5806" y1="7.32625" x2="63.21125" y2="7.32625" width="0.3048" layer="1"/>
+<wire x1="59.5806" y1="7.32625" x2="63.02375" y2="7.32625" width="0.3048" layer="1"/>
+<wire x1="63.02375" y1="7.32625" x2="63.21125" y2="7.32625" width="0.3048" layer="1"/>
 <wire x1="21.59" y1="50.8" x2="32.54375" y2="39.84625" width="0.3048" layer="1"/>
 <wire x1="32.54375" y1="39.84625" x2="32.54375" y2="30.32125" width="0.3048" layer="1"/>
 <wire x1="32.54375" y1="30.32125" x2="36.355" y2="26.51" width="0.3048" layer="1"/>
@@ -2143,7 +2156,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="42.70375" y="8.09625" extent="1-16" drill="0.6"/>
 <wire x1="42.70375" y1="8.09625" x2="40.79875" y2="10.00125" width="0.3048" layer="16"/>
 <contactref element="R2" pad="2"/>
-<wire x1="63.21125" y1="7.32625" x2="63.21125" y2="8.255" width="0" layer="19" extent="1-1"/>
+<wire x1="63.21125" y1="8.255" x2="63.02375" y2="8.255" width="0.3048" layer="1"/>
+<wire x1="63.02375" y1="8.255" x2="63.02375" y2="7.32625" width="0.3048" layer="1"/>
 </signal>
 <signal name="SCL/GPIO14">
 <contactref element="MDL1" pad="5"/>
@@ -2168,7 +2182,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="42.70375" y="9.36625" extent="1-16" drill="0.6"/>
 <wire x1="42.70375" y1="9.36625" x2="54.13375" y2="9.36625" width="0.3048" layer="1"/>
 <contactref element="R1" pad="2"/>
-<wire x1="61.9125" y1="11.43" x2="63.21125" y2="11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="61.9125" y1="11.43" x2="63.21125" y2="11.43" width="0.3048" layer="1"/>
 </signal>
 <signal name="ADDR">
 <contactref element="U1" pad="1"/>
@@ -2773,8 +2787,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="19,1,e667e5058a07a032"/>
 <approved hash="19,1,0db67002c471166e"/>
 <approved hash="19,1,1f9c0483d8c7434a"/>
-<approved hash="19,16,5b86233e2fae5716"/>
 <approved hash="19,16,7e6406dc1e94662c"/>
+<approved hash="19,16,5b86233e2fae5716"/>
 <approved hash="19,16,114a1801b607a015"/>
 <approved hash="19,16,212001981cc83c70"/>
 <approved hash="19,16,251f65a778fb3843"/>
