@@ -9,7 +9,7 @@ Features:
 + Pin 13 LED still present, tied to SCLK/GPIO6
 + LiPo cell support on-board! MCP73831 Charger circuit, TSP61200 Boost converter (shamelessly stolen from a [Sparkfun reference design](https://www.sparkfun.com/products/11231)) 
 + 3.3V regulator ([AMS1117](http://www.aliexpress.com/premium/ams1117.html?ltype=wholesale&SearchText=ams1117&d=y&origin=y&initiative_id=SB_20151010010621&isViewCP=y&catId=0))
-+ All the associated recommended pullups as per the [Arduino ESP8266 project](https://github.com/esp8266/Arduino) ([Schematic](https://github.com/esp8266/Arduino/blob/esp8266/docs/ESP_improved_stability.png)
++ All the associated recommended pullups as per the [Arduino ESP8266 project](https://github.com/esp8266/Arduino) ([Schematic](https://github.com/esp8266/Arduino/blob/esp8266/docs/ESP_improved_stability.png))
 + Built-in USB programmer ([FTDI FT232R](http://www.aliexpress.com/premium/FT232R.html?spm=2114.01020208.0.312.zEmQlv&site=glo&g=y&SortType=price_asc&SearchText=FT232R&isUnitPrice=y&initiative_id=SB_20151010010739&shipCountry=uk&needQuery=n)) similar to how the Arduinos have.
 + Mini-USB port. They're easier to get hold of, for me, and the full-size USB connector tends to short out cheaply made boards that ride up on top of the Arduino. Also should help reduce the deck height of the board.
 + All of the parts that weren't restricted to being tiny ICs (Damn ADS1115, TSP61200, LMV358IDGKR) are massive 1206-size parts.
