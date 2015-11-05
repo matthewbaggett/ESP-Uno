@@ -22455,10 +22455,10 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 <sheet>
 <plain>
 <text x="142.24" y="310.134" size="1.778" layer="97">UVLO 2.6V</text>
-<wire x1="0" y1="312.42" x2="86.36" y2="312.42" width="0.4064" layer="95"/>
-<wire x1="86.36" y1="312.42" x2="86.36" y2="335.28" width="0.4064" layer="95"/>
+<wire x1="0" y1="314.96" x2="86.36" y2="314.96" width="0.4064" layer="95"/>
+<wire x1="86.36" y1="314.96" x2="86.36" y2="335.28" width="0.4064" layer="95"/>
 <wire x1="86.36" y1="335.28" x2="86.36" y2="378.46" width="0.4064" layer="95"/>
-<wire x1="86.36" y1="312.42" x2="86.36" y2="287.02" width="0.4064" layer="95"/>
+<wire x1="86.36" y1="314.96" x2="86.36" y2="287.02" width="0.4064" layer="95"/>
 <wire x1="86.36" y1="287.02" x2="86.36" y2="254" width="0.4064" layer="95"/>
 <wire x1="86.36" y1="254" x2="86.36" y2="193.04" width="0.4064" layer="95"/>
 <wire x1="248.92" y1="271.78" x2="182.88" y2="271.78" width="0.4064" layer="95"/>
@@ -22468,8 +22468,7 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 <wire x1="187.96" y1="231.14" x2="248.92" y2="231.14" width="0.4064" layer="95"/>
 <wire x1="0" y1="119.38" x2="137.16" y2="119.38" width="0.4064" layer="95"/>
 <wire x1="137.16" y1="119.38" x2="137.16" y2="185.42" width="0.4064" layer="95"/>
-<wire x1="137.16" y1="119.38" x2="137.16" y2="5.08" width="0.4064" layer="95"/>
-<wire x1="137.16" y1="5.08" x2="0" y2="5.08" width="0.4064" layer="95"/>
+<wire x1="137.16" y1="119.38" x2="137.16" y2="0" width="0.4064" layer="95"/>
 <wire x1="137.16" y1="119.38" x2="187.96" y2="119.38" width="0.4064" layer="95"/>
 <wire x1="187.96" y1="119.38" x2="187.96" y2="185.42" width="0.4064" layer="95"/>
 <wire x1="187.96" y1="119.38" x2="248.92" y2="119.38" width="0.4064" layer="95"/>
@@ -22479,7 +22478,7 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 <text x="193.04" y="177.8" size="3.81" layer="95">Pullups</text>
 <text x="187.96" y="233.68" size="3.81" layer="95">pin 13 "L" lamp equivilent</text>
 <text x="2.54" y="373.38" size="3.81" layer="95">Processor ESP8266 12F</text>
-<text x="2.54" y="307.34" size="3.81" layer="95">Board IO</text>
+<text x="2.54" y="309.88" size="3.81" layer="95">Board IO</text>
 <wire x1="86.36" y1="335.28" x2="248.92" y2="335.28" width="0.6096" layer="95"/>
 <wire x1="86.36" y1="287.02" x2="182.88" y2="287.02" width="0.6096" layer="95"/>
 <wire x1="182.88" y1="287.02" x2="182.88" y2="271.78" width="0.6096" layer="95"/>
@@ -22497,7 +22496,7 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 <instances>
 <instance part="SUPPLY1" gate="G$1" x="5.08" y="365.76"/>
 <instance part="GND1" gate="1" x="78.74" y="335.28"/>
-<instance part="MDL1" gate="G$1" x="45.72" y="353.06"/>
+<instance part="MDL1" gate="G$1" x="45.72" y="355.6"/>
 <instance part="GND3" gate="1" x="17.78" y="259.08"/>
 <instance part="SUPPLY2" gate="G$1" x="5.08" y="279.4"/>
 <instance part="SUPPLY3" gate="G$1" x="12.7" y="279.4"/>
@@ -22655,9 +22654,9 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 <nets>
 <net name="RESET" class="0">
 <segment>
-<label x="10.16" y="360.68" size="1.778" layer="95"/>
+<label x="10.16" y="363.22" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="REST"/>
-<wire x1="22.86" y1="360.68" x2="7.62" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="363.22" x2="7.62" y2="363.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="2"/>
@@ -22689,10 +22688,10 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </net>
 <net name="3.3V" class="0">
 <segment>
-<wire x1="5.08" y1="342.9" x2="22.86" y2="342.9" width="0.1524" layer="91"/>
-<label x="10.16" y="342.9" size="1.778" layer="95"/>
+<wire x1="5.08" y1="345.44" x2="22.86" y2="345.44" width="0.1524" layer="91"/>
+<label x="10.16" y="345.44" size="1.778" layer="95"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<wire x1="5.08" y1="342.9" x2="5.08" y2="365.76" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="345.44" x2="5.08" y2="365.76" width="0.1524" layer="91"/>
 <pinref part="MDL1" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
@@ -22792,10 +22791,10 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="55.88" y1="342.9" x2="78.74" y2="342.9" width="0.1524" layer="91"/>
-<label x="63.5" y="342.9" size="1.778" layer="95"/>
+<wire x1="55.88" y1="345.44" x2="78.74" y2="345.44" width="0.1524" layer="91"/>
+<label x="63.5" y="345.44" size="1.778" layer="95"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="78.74" y1="342.9" x2="78.74" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="345.44" x2="78.74" y2="337.82" width="0.1524" layer="91"/>
 <pinref part="MDL1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -23066,8 +23065,8 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </net>
 <net name="RX" class="0">
 <segment>
-<wire x1="55.88" y1="358.14" x2="76.2" y2="358.14" width="0.1524" layer="91"/>
-<label x="63.5" y="358.14" size="1.778" layer="95"/>
+<wire x1="55.88" y1="360.68" x2="76.2" y2="360.68" width="0.1524" layer="91"/>
+<label x="63.5" y="360.68" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="RXD"/>
 </segment>
 <segment>
@@ -23083,8 +23082,8 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </net>
 <net name="TX" class="0">
 <segment>
-<wire x1="76.2" y1="360.68" x2="55.88" y2="360.68" width="0.1524" layer="91"/>
-<label x="63.5" y="360.68" size="1.778" layer="95"/>
+<wire x1="76.2" y1="363.22" x2="55.88" y2="363.22" width="0.1524" layer="91"/>
+<label x="63.5" y="363.22" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="TXD"/>
 </segment>
 <segment>
@@ -23168,8 +23167,8 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </net>
 <net name="ADC" class="0">
 <segment>
-<wire x1="7.62" y1="358.14" x2="22.86" y2="358.14" width="0.1524" layer="91"/>
-<label x="10.16" y="358.14" size="1.778" layer="95"/>
+<wire x1="7.62" y1="360.68" x2="22.86" y2="360.68" width="0.1524" layer="91"/>
+<label x="10.16" y="360.68" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="ADC"/>
 </segment>
 </net>
@@ -23342,9 +23341,9 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </net>
 <net name="CH_PD" class="0">
 <segment>
-<label x="10.16" y="355.6" size="1.778" layer="95"/>
+<label x="10.16" y="358.14" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="CH_PD"/>
-<wire x1="22.86" y1="355.6" x2="7.62" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="358.14" x2="7.62" y2="358.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
@@ -23610,8 +23609,8 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </net>
 <net name="SCL" class="0">
 <segment>
-<wire x1="76.2" y1="355.6" x2="55.88" y2="355.6" width="0.1524" layer="91"/>
-<label x="63.5" y="355.6" size="1.778" layer="95"/>
+<wire x1="76.2" y1="358.14" x2="55.88" y2="358.14" width="0.1524" layer="91"/>
+<label x="63.5" y="358.14" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="GPIO5"/>
 </segment>
 <segment>
@@ -23642,8 +23641,8 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </net>
 <net name="SDA" class="0">
 <segment>
-<wire x1="55.88" y1="353.06" x2="76.2" y2="353.06" width="0.1524" layer="91"/>
-<label x="63.5" y="353.06" size="1.778" layer="95"/>
+<wire x1="55.88" y1="355.6" x2="76.2" y2="355.6" width="0.1524" layer="91"/>
+<label x="63.5" y="355.6" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="GPIO4"/>
 </segment>
 <segment>
@@ -23674,8 +23673,8 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </net>
 <net name="GPIO0" class="0">
 <segment>
-<wire x1="76.2" y1="350.52" x2="55.88" y2="350.52" width="0.1524" layer="91"/>
-<label x="63.5" y="350.52" size="1.778" layer="95"/>
+<wire x1="76.2" y1="353.06" x2="55.88" y2="353.06" width="0.1524" layer="91"/>
+<label x="63.5" y="353.06" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="GPIO0"/>
 </segment>
 <segment>
@@ -23693,15 +23692,15 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </net>
 <net name="GPIO2" class="0">
 <segment>
-<wire x1="55.88" y1="347.98" x2="76.2" y2="347.98" width="0.1524" layer="91"/>
-<label x="63.5" y="347.98" size="1.778" layer="95"/>
+<wire x1="55.88" y1="350.52" x2="76.2" y2="350.52" width="0.1524" layer="91"/>
+<label x="63.5" y="350.52" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="GPIO2"/>
 </segment>
 </net>
 <net name="GPIO15" class="0">
 <segment>
-<wire x1="76.2" y1="345.44" x2="55.88" y2="345.44" width="0.1524" layer="91"/>
-<label x="63.5" y="345.44" size="1.778" layer="95"/>
+<wire x1="76.2" y1="347.98" x2="55.88" y2="347.98" width="0.1524" layer="91"/>
+<label x="63.5" y="347.98" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="GPIO15"/>
 </segment>
 <segment>
@@ -23712,54 +23711,53 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </net>
 <net name="GPIO16" class="0">
 <segment>
-<label x="10.16" y="353.06" size="1.778" layer="95"/>
+<label x="10.16" y="355.6" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="GPIO16"/>
-<wire x1="22.86" y1="353.06" x2="7.62" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="355.6" x2="7.62" y2="355.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO14" class="0">
 <segment>
-<wire x1="7.62" y1="350.52" x2="22.86" y2="350.52" width="0.1524" layer="91"/>
-<label x="10.16" y="350.52" size="1.778" layer="95"/>
+<wire x1="7.62" y1="353.06" x2="22.86" y2="353.06" width="0.1524" layer="91"/>
+<label x="10.16" y="353.06" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="GPIO14"/>
 </segment>
 </net>
 <net name="GPIO12" class="0">
 <segment>
-<wire x1="7.62" y1="347.98" x2="22.86" y2="347.98" width="0.1524" layer="91"/>
-<label x="10.16" y="347.98" size="1.778" layer="95"/>
+<wire x1="7.62" y1="350.52" x2="22.86" y2="350.52" width="0.1524" layer="91"/>
+<label x="10.16" y="350.52" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="GPIO12"/>
 </segment>
 </net>
 <net name="GPIO13" class="0">
 <segment>
-<label x="10.16" y="345.44" size="1.778" layer="95"/>
+<label x="10.16" y="347.98" size="1.778" layer="95"/>
 <pinref part="MDL1" gate="G$1" pin="GPIO13"/>
-<wire x1="22.86" y1="345.44" x2="7.62" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="347.98" x2="7.62" y2="347.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS0" class="0">
 <segment>
 <pinref part="MDL1" gate="G$1" pin="CS0"/>
-<wire x1="33.02" y1="327.66" x2="33.02" y2="325.12" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="325.12" x2="7.62" y2="325.12" width="0.1524" layer="91"/>
-<label x="10.16" y="325.12" size="1.778" layer="95"/>
+<wire x1="33.02" y1="330.2" x2="7.62" y2="330.2" width="0.1524" layer="91"/>
+<label x="10.16" y="330.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO9" class="0">
 <segment>
 <pinref part="MDL1" gate="G$1" pin="GPIO9"/>
-<wire x1="38.1" y1="327.66" x2="38.1" y2="320.04" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="320.04" x2="7.62" y2="320.04" width="0.1524" layer="91"/>
-<label x="10.16" y="320.04" size="1.778" layer="95"/>
+<wire x1="38.1" y1="330.2" x2="38.1" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="325.12" x2="7.62" y2="325.12" width="0.1524" layer="91"/>
+<label x="10.16" y="325.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO10" class="0">
 <segment>
 <pinref part="MDL1" gate="G$1" pin="GPIO10"/>
-<wire x1="40.64" y1="327.66" x2="40.64" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="317.5" x2="7.62" y2="317.5" width="0.1524" layer="91"/>
-<label x="10.16" y="317.5" size="1.778" layer="95"/>
+<wire x1="40.64" y1="330.2" x2="40.64" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="322.58" x2="7.62" y2="322.58" width="0.1524" layer="91"/>
+<label x="10.16" y="322.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -23947,9 +23945,9 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </segment>
 <segment>
 <pinref part="MDL1" gate="G$1" pin="SCLK"/>
-<wire x1="45.72" y1="327.66" x2="45.72" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="312.42" x2="7.62" y2="312.42" width="0.1524" layer="91"/>
-<label x="10.16" y="312.42" size="1.778" layer="95"/>
+<wire x1="45.72" y1="330.2" x2="45.72" y2="317.5" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="317.5" x2="7.62" y2="317.5" width="0.1524" layer="91"/>
+<label x="10.16" y="317.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -23959,10 +23957,10 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 <label x="22.86" y="254" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="7.62" y1="322.58" x2="35.56" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="327.66" x2="35.56" y2="327.66" width="0.1524" layer="91"/>
 <pinref part="MDL1" gate="G$1" pin="MISO"/>
-<wire x1="35.56" y1="322.58" x2="35.56" y2="327.66" width="0.1524" layer="91"/>
-<label x="10.16" y="322.58" size="1.778" layer="95"/>
+<wire x1="35.56" y1="327.66" x2="35.56" y2="330.2" width="0.1524" layer="91"/>
+<label x="10.16" y="327.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -23973,9 +23971,9 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 </segment>
 <segment>
 <pinref part="MDL1" gate="G$1" pin="MOSI"/>
-<wire x1="43.18" y1="327.66" x2="43.18" y2="314.96" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="314.96" x2="7.62" y2="314.96" width="0.1524" layer="91"/>
-<label x="10.16" y="314.96" size="1.778" layer="95"/>
+<wire x1="43.18" y1="330.2" x2="43.18" y2="320.04" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="320.04" x2="7.62" y2="320.04" width="0.1524" layer="91"/>
+<label x="10.16" y="320.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AIN4" class="0">
