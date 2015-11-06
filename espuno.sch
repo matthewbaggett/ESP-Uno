@@ -22711,10 +22711,6 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 <wire x1="144.78" y1="228.6" x2="144.78" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="VCCIO"/>
-<wire x1="71.12" y1="157.48" x2="53.34" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
 <pinref part="RX" gate="G$1" pin="A"/>
 <wire x1="116.84" y1="172.72" x2="116.84" y2="175.26" width="0.1524" layer="91"/>
@@ -23986,6 +23982,15 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="AIN0"/>
 <wire x1="33.02" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 <label x="20.32" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="VCCIO"/>
+<wire x1="71.12" y1="157.48" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="157.48" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="3V3OUT"/>
+<wire x1="63.5" y1="160.02" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
