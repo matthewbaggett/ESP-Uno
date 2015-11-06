@@ -591,6 +591,20 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <text x="2.8" y="0.7" size="0.4064" layer="25">&gt;NAME</text>
 <text x="2.8" y="-1" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="PTC-1206">
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="51"/>
+<wire x1="0.635" y1="-0.762" x2="-0.635" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="0.762" x2="0.635" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="-1.143" y1="-1.016" x2="0.254" y2="1.016" width="0.127" layer="51"/>
+<wire x1="0.254" y1="1.016" x2="1.143" y2="1.016" width="0.127" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1" dy="1.8" layer="1"/>
+<text x="-1.524" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1.524" y="-1.651" size="0.4064" layer="27">&gt;Value</text>
+</package>
 </packages>
 </library>
 <library name="SparkFun-LED">
@@ -1471,8 +1485,8 @@ Source: http://www.linear.com .. LT1996</description>
 <element name="R6" library="rcl" package="M1206" value="1K" x="15.875" y="50.00625" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.46225" y="49.81575" size="0.6096" layer="25" font="vector"/>
 </element>
-<element name="R9" library="rcl" package="M1206" value="470" x="12.85875" y="41.5925" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.66825" y="41.8465" size="0.4064" layer="25" font="vector" rot="R270"/>
+<element name="R9" library="rcl" package="M1206" value="470" x="12.85875" y="42.70375" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.66825" y="42.95775" size="0.4064" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="X1" library="SmartPrj" package="POWERSUPPLY_DC-21MM" value="POWERSUPPLY_DC21MMX" x="2.06375" y="8.41375" smashed="yes" rot="R90"/>
 <element name="C5" library="rcl" package="C1206K" value="0.1uF" x="13.17625" y="35.56" smashed="yes" rot="R90">
@@ -1484,11 +1498,11 @@ Source: http://www.linear.com .. LT1996</description>
 <element name="U4" library="SparkFun" package="SSOP28DB" value="FT232R" x="19.3675" y="33.9725" smashed="yes" rot="R90">
 <attribute name="VALUE" x="18.4714125" y="36.408221875" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="R7" library="rcl" package="M1206" value="330" x="10.63625" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="10.287" y="46.2915" size="0.6096" layer="25" font="vector" rot="R270"/>
+<element name="R7" library="rcl" package="M1206" value="330" x="10.63625" y="45.87875" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.287" y="46.45025" size="0.6096" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R8" library="rcl" package="M1206" value="330" x="15.71625" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.20825" y="46.2915" size="0.6096" layer="25" font="vector" rot="R270"/>
+<element name="R8" library="rcl" package="M1206" value="330" x="15.71625" y="45.87875" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.20825" y="46.45025" size="0.6096" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="RX" library="SparkFun-LED" package="LED-1206" value="GREEN" x="7.77875" y="50.00625" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.731" y="52.60975" size="0.6096" layer="25"/>
@@ -1630,6 +1644,7 @@ Source: http://www.linear.com .. LT1996</description>
 <element name="U1" library="SparkFun-AnalogIC" package="MSOP10" value="ADS1015" x="56.99125" y="10.16" smashed="yes">
 <attribute name="PROD_ID" value="IC-12239" x="50.165" y="13.97" size="1.778" layer="27" display="off"/>
 </element>
+<element name="F1" library="SparkFun" package="PTC-1206" value="500mA" x="12.85875" y="40.16375"/>
 </elements>
 <signals>
 <signal name="RX">
@@ -1950,7 +1965,7 @@ Source: http://www.linear.com .. LT1996</description>
 <via x="20.16125" y="29.36875" extent="1-16" drill="0.6"/>
 <via x="3.81" y="38.735" extent="1-16" drill="0.6"/>
 <via x="1.905" y="45.085" extent="1-16" drill="0.6"/>
-<via x="12.85875" y="43.33875" extent="1-16" drill="0.6"/>
+<via x="20.32" y="43.18" extent="1-16" drill="0.6"/>
 <via x="22.70125" y="3.175" extent="1-16" drill="0.6"/>
 <via x="48.26" y="2.69875" extent="1-16" drill="0.6"/>
 <contactref element="R21" pad="1"/>
@@ -1978,8 +1993,10 @@ Source: http://www.linear.com .. LT1996</description>
 <contactref element="J1" pad="5V"/>
 <wire x1="12.08875" y1="25.76375" x2="12.08875" y2="26.51125" width="0.3048" layer="1"/>
 <wire x1="12.08875" y1="26.51125" x2="17.62125" y2="26.51125" width="0.3048" layer="1"/>
-<wire x1="14.25875" y1="41.5925" x2="16.51" y2="41.5925" width="0.3048" layer="1"/>
-<wire x1="16.51" y1="41.5925" x2="16.51" y2="40.3225" width="0.3048" layer="1"/>
+<wire x1="14.25875" y1="42.70375" x2="15.71625" y2="42.70375" width="0.3048" layer="1"/>
+<wire x1="15.71625" y1="42.70375" x2="15.71625" y2="42.2275" width="0.3048" layer="1"/>
+<wire x1="15.71625" y1="42.2275" x2="16.51" y2="41.43375" width="0.3048" layer="1"/>
+<wire x1="16.51" y1="41.43375" x2="16.51" y2="40.3225" width="0.3048" layer="1"/>
 <via x="16.51" y="40.3225" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="16.51" y1="40.3225" x2="16.51" y2="26.51125" width="0.3048" layer="16"/>
 <wire x1="16.51" y1="26.51125" x2="17.62125" y2="26.51125" width="0.3048" layer="16"/>
@@ -2119,7 +2136,7 @@ Source: http://www.linear.com .. LT1996</description>
 <signal name="N$1">
 <contactref element="ON" pad="A"/>
 <contactref element="R9" pad="2"/>
-<wire x1="11.45875" y1="41.5925" x2="11.45875" y2="43.97375" width="0.3048" layer="1"/>
+<wire x1="11.45875" y1="42.70375" x2="11.45875" y2="43.97375" width="0.3048" layer="1"/>
 <wire x1="11.45875" y1="43.97375" x2="6.985" y2="43.97375" width="0.3048" layer="1"/>
 <wire x1="5.08" y1="48.50625" x2="5.08" y2="45.87875" width="0.3048" layer="1"/>
 <wire x1="5.08" y1="45.87875" x2="6.985" y2="43.97375" width="0.3048" layer="1"/>
@@ -2157,23 +2174,13 @@ Source: http://www.linear.com .. LT1996</description>
 <contactref element="U6" pad="4"/>
 <contactref element="C9" pad="1"/>
 <contactref element="D4" pad="A"/>
-<contactref element="JP1" pad="VBUS"/>
 <wire x1="15.7115" y1="34.9475" x2="18.25625" y2="34.9475" width="0.3048" layer="1"/>
 <wire x1="18.25625" y1="34.9475" x2="18.25625" y2="36.5125" width="0.3048" layer="1"/>
 <wire x1="18.25625" y1="36.5125" x2="17.30375" y2="37.465" width="0.3048" layer="1"/>
-<wire x1="17.30375" y1="37.465" x2="17.30375" y2="39.37" width="0.3048" layer="1"/>
-<wire x1="17.30375" y1="39.37" x2="10.63625" y2="39.37" width="0.3048" layer="1"/>
-<wire x1="10.63625" y1="39.37" x2="10.63625" y2="39.6875" width="0.3048" layer="1"/>
-<wire x1="10.63625" y1="39.6875" x2="8.5325" y2="39.6875" width="0.3048" layer="1"/>
-<wire x1="8.5325" y1="39.6875" x2="8.5325" y2="39.7" width="0.3048" layer="1"/>
 <wire x1="15.7115" y1="34.9475" x2="13.17625" y2="34.9475" width="0.3048" layer="1"/>
 <wire x1="13.17625" y1="34.9475" x2="13.17625" y2="34.06" width="0.3048" layer="1"/>
 <wire x1="10.95375" y1="33.90125" x2="13.17625" y2="33.90125" width="0.3048" layer="1"/>
 <wire x1="13.17625" y1="33.90125" x2="13.17625" y2="34.06" width="0.3048" layer="1"/>
-<wire x1="8.5325" y1="39.7" x2="8.40125" y2="39.7" width="0.3048" layer="1"/>
-<wire x1="8.40125" y1="39.7" x2="6.35" y2="41.75125" width="0.3048" layer="1"/>
-<wire x1="6.35" y1="41.75125" x2="6.35" y2="43.18" width="0.3048" layer="1"/>
-<wire x1="6.35" y1="43.18" x2="2.38125" y2="47.14875" width="0.3048" layer="1"/>
 <wire x1="2.38125" y1="47.14875" x2="2.38125" y2="48.50625" width="0.3048" layer="1"/>
 <wire x1="31.0275" y1="14.2875" x2="29.68625" y2="14.2875" width="0.3048" layer="1"/>
 <wire x1="29.68625" y1="14.2875" x2="29.68625" y2="16.03375" width="0.3048" layer="1"/>
@@ -2197,15 +2204,24 @@ Source: http://www.linear.com .. LT1996</description>
 <via x="16.66875" y="42.545" extent="1-16" drill="0.6"/>
 <wire x1="16.66875" y1="42.545" x2="17.30375" y2="42.545" width="0.3048" layer="1"/>
 <wire x1="17.30375" y1="42.545" x2="17.30375" y2="39.37" width="0.3048" layer="1"/>
+<contactref element="F1" pad="2"/>
+<wire x1="17.30375" y1="39.37" x2="17.30375" y2="37.465" width="0.3048" layer="1"/>
+<wire x1="14.25875" y1="40.16375" x2="15.0525" y2="39.37" width="0.3048" layer="1"/>
+<wire x1="15.0525" y1="39.37" x2="17.30375" y2="39.37" width="0.3048" layer="1"/>
+<wire x1="2.38125" y1="47.14875" x2="4.92125" y2="44.60875" width="0.3048" layer="1"/>
+<wire x1="4.92125" y1="44.60875" x2="4.92125" y2="32.0675" width="0.3048" layer="1"/>
+<wire x1="4.92125" y1="32.0675" x2="10.31875" y2="32.0675" width="0.3048" layer="1"/>
+<wire x1="10.31875" y1="32.0675" x2="10.95375" y2="32.7025" width="0.3048" layer="1"/>
+<wire x1="10.95375" y1="32.7025" x2="10.95375" y2="33.90125" width="0.3048" layer="1"/>
 </signal>
 <signal name="L13">
 <contactref element="U5" pad="7"/>
 <contactref element="U5" pad="6"/>
 <contactref element="L" pad="A"/>
 <wire x1="13.17625" y1="48.50625" x2="14.12875" y2="48.50625" width="0.3048" layer="1"/>
-<wire x1="14.12875" y1="48.50625" x2="14.12875" y2="47.14875" width="0.3048" layer="1"/>
-<wire x1="14.12875" y1="47.14875" x2="18.7325" y2="47.14875" width="0.3048" layer="1"/>
-<wire x1="18.7325" y1="47.14875" x2="18.7325" y2="37.94125" width="0.3048" layer="1"/>
+<wire x1="14.12875" y1="48.50625" x2="14.12875" y2="47.3075" width="0.3048" layer="1"/>
+<wire x1="14.12875" y1="47.3075" x2="18.7325" y2="47.3075" width="0.3048" layer="1"/>
+<wire x1="18.7325" y1="47.3075" x2="18.7325" y2="37.94125" width="0.3048" layer="1"/>
 <wire x1="18.7325" y1="37.94125" x2="19.685" y2="36.98875" width="0.3048" layer="1"/>
 <wire x1="19.685" y1="36.98875" x2="19.685" y2="32.385" width="0.3048" layer="1"/>
 <wire x1="19.685" y1="32.385" x2="18.7325" y2="31.4325" width="0.3048" layer="1"/>
@@ -2425,15 +2441,15 @@ Source: http://www.linear.com .. LT1996</description>
 <signal name="N$3">
 <contactref element="RX" pad="C"/>
 <contactref element="R7" pad="2"/>
-<wire x1="9.23625" y1="45.72" x2="7.14375" y2="45.72" width="0.3048" layer="1"/>
-<wire x1="7.14375" y1="45.72" x2="6.50875" y2="46.355" width="0.3048" layer="1"/>
+<wire x1="9.23625" y1="45.87875" x2="6.985" y2="45.87875" width="0.3048" layer="1"/>
+<wire x1="6.985" y1="45.87875" x2="6.50875" y2="46.355" width="0.3048" layer="1"/>
 <wire x1="7.77875" y1="51.50625" x2="6.50875" y2="51.50625" width="0.3048" layer="1"/>
 <wire x1="6.50875" y1="51.50625" x2="6.50875" y2="46.355" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="TX" pad="C"/>
 <contactref element="R8" pad="2"/>
-<wire x1="14.31625" y1="45.72" x2="13.6525" y2="45.72" width="0.3048" layer="1"/>
+<wire x1="14.31625" y1="45.87875" x2="13.6525" y2="45.72" width="0.3048" layer="1"/>
 <wire x1="13.6525" y1="45.72" x2="13.6525" y2="47.46625" width="0.3048" layer="1"/>
 <wire x1="13.6525" y1="47.46625" x2="12.065" y2="47.46625" width="0.3048" layer="1"/>
 <wire x1="12.065" y1="47.46625" x2="12.065" y2="51.50625" width="0.3048" layer="1"/>
@@ -2456,7 +2472,7 @@ Source: http://www.linear.com .. LT1996</description>
 <signal name="N$7">
 <contactref element="U4" pad="22"/>
 <contactref element="R7" pad="1"/>
-<wire x1="12.03625" y1="45.72" x2="12.03625" y2="45.56125" width="0.3048" layer="1"/>
+<wire x1="12.03625" y1="45.87875" x2="12.03625" y2="45.56125" width="0.3048" layer="1"/>
 <wire x1="12.03625" y1="45.56125" x2="12.54125" y2="45.56125" width="0.3048" layer="1"/>
 <wire x1="12.54125" y1="45.56125" x2="12.54125" y2="44.29125" width="0.3048" layer="1"/>
 <wire x1="12.54125" y1="44.29125" x2="17.78" y2="44.29125" width="0.3048" layer="1"/>
@@ -2468,9 +2484,9 @@ Source: http://www.linear.com .. LT1996</description>
 <signal name="N$9">
 <contactref element="R8" pad="1"/>
 <contactref element="U4" pad="23"/>
-<wire x1="17.11625" y1="45.72" x2="16.9575" y2="45.72" width="0.3048" layer="1"/>
-<wire x1="17.11625" y1="45.72" x2="18.25625" y2="45.72" width="0.3048" layer="1"/>
-<wire x1="18.25625" y1="45.72" x2="18.25625" y2="37.7825" width="0.3048" layer="1"/>
+<wire x1="17.11625" y1="45.87875" x2="16.9575" y2="45.72" width="0.3048" layer="1"/>
+<wire x1="17.11625" y1="45.87875" x2="18.25625" y2="45.87875" width="0.3048" layer="1"/>
+<wire x1="18.25625" y1="45.87875" x2="18.25625" y2="37.7825" width="0.3048" layer="1"/>
 <wire x1="18.25625" y1="37.7825" x2="19.20875" y2="36.83" width="0.3048" layer="1"/>
 <wire x1="19.20875" y1="36.83" x2="19.20875" y2="32.9975" width="0.3048" layer="1"/>
 <wire x1="19.20875" y1="32.9975" x2="15.7115" y2="32.9975" width="0.3048" layer="1"/>
@@ -2769,6 +2785,12 @@ Source: http://www.linear.com .. LT1996</description>
 <wire x1="20.47875" y1="30.7975" x2="21.37875" y2="31.6975" width="0.254" layer="1"/>
 <wire x1="21.37875" y1="31.6975" x2="23.0235" y2="31.6975" width="0.254" layer="1"/>
 </signal>
+<signal name="VBUS">
+<contactref element="F1" pad="1"/>
+<contactref element="JP1" pad="VBUS"/>
+<wire x1="11.45875" y1="40.16375" x2="10.995" y2="39.7" width="0.3048" layer="1"/>
+<wire x1="10.995" y1="39.7" x2="8.5325" y2="39.7" width="0.3048" layer="1"/>
+</signal>
 </signals>
 <errors>
 <approved hash="19,1,f93d9a5e622f85b0"/>
@@ -2893,19 +2915,19 @@ Source: http://www.linear.com .. LT1996</description>
 <approved hash="19,1,212001981cc83c70"/>
 <approved hash="19,1,251f65a778fb3843"/>
 <approved hash="19,1,1ba84cd259864f95"/>
-<approved hash="19,1,05acfaf2c5503a0e"/>
 <approved hash="19,1,038cfcd2e4e81bb6"/>
+<approved hash="19,1,05acfaf2c5503a0e"/>
 <approved hash="19,1,e667e5058a07a032"/>
-<approved hash="19,1,1f9c0483d8c7434a"/>
 <approved hash="19,1,0db67002c471166e"/>
+<approved hash="19,1,1f9c0483d8c7434a"/>
 <approved hash="19,16,7e6406dc1e94662c"/>
 <approved hash="19,16,5b86233e2fae5716"/>
 <approved hash="19,16,114a1801b607a015"/>
 <approved hash="19,16,212001981cc83c70"/>
 <approved hash="19,16,251f65a778fb3843"/>
 <approved hash="19,16,1ba84cd259864f95"/>
-<approved hash="19,16,038cfcd2e4e81bb6"/>
 <approved hash="19,16,05acfaf2c5503a0e"/>
+<approved hash="19,16,038cfcd2e4e81bb6"/>
 <approved hash="19,16,e667e5058a07a032"/>
 </errors>
 </board>
